@@ -1,0 +1,33 @@
+*{
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Clash Display";
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url("/content/fontes/ClashDisplay-Regular.woff2") format("woff2"),
+         url("/content/fontes/ClashDisplay-Regular.woff") format("woff");
+  }
+  
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #090909;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
