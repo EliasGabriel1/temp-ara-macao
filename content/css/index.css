@@ -96,6 +96,10 @@ footer.mb{
     font-family: 'Roboto', sans-serif !important;
 }
 
+.hover-d-none{
+    display: none;
+}
+
 @media screen and (min-width: 800px){
     .visited a{
         position: relative;
@@ -122,6 +126,17 @@ footer.mb{
         -webkit-text-fill-color: #000;
         color: #000;
     }
+    .visited a:hover{
+        padding: 12px 81px;
+        background-color: #000;
+    }
+    .visited a:hover .hover-d-none{
+        display: inherit;
+    }
+    .visited a:hover .hover{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 800px){
