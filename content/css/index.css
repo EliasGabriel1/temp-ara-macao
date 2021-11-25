@@ -20,6 +20,11 @@ hr{
     margin-top: 79.55px;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+}
+
 .main_text h1{
     font-size: 125px;
     line-height: 90%;
@@ -93,29 +98,29 @@ footer.mb{
 
 @media screen and (min-width: 800px){
     .visited a{
-        padding: 12px 83.5px;
-        border: double 2px transparent;
-        border-image: linear-gradient(to right, #6CE999  1%, #6CE999  1%, #00CDFA 98%); 
+        position: relative;
+        border: 4px solid transparent;
         border-radius: 5px;
-        border-image-slice: 1;
-        border-radius: 5px;
-    }
-    .visited{
-        border: none;
+        background-color: transparent;
+        background-clip: padding-box;
+        padding: 12px 83px;
         font-weight: 700;
-        font-size: 15px;
-        background: linear-gradient(to right, #7CFF00 1%, #00FFF4 99%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: black;
+        text-align: center;
+        font-size: 16px;
+        -webkit-text-fill-color: #000;
+        color: #000;
     }
     
-    .visited:hover a{
+    .visited a::after{
+        position: absolute;
+        top: -4px; bottom: -4px;
+        left: -4px; right: -4px;
+        background: linear-gradient(90deg, #7CFF01 -15.5%, #01FFF4 100%);
+        content: '';
+        z-index: -1;
+        border-radius: 5px;
         -webkit-text-fill-color: #000;
-        background: linear-gradient(to right, #7CFF00 1%, #00FFF4 99%);
         color: #000;
-    
     }
 }
 
