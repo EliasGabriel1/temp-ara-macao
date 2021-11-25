@@ -127,6 +127,7 @@ footer.mb{
         color: #000;
     }
     .visited a:hover{
+        padding: 12px 83px;
         background-color: #000;
     }
     .visited a:hover .hover-d-none{
