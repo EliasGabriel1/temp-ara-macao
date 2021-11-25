@@ -63,7 +63,7 @@ button{
 .group__text{
     margin-top: 16px;
     margin-bottom: 36px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fonte-corrida);
 }
 
 .content_text img{
@@ -79,7 +79,7 @@ button{
 }
 
 footer{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fonte-corrida);
     font-size: 12px;
 }
 
@@ -93,7 +93,7 @@ footer.mb{
 }
 
 .visited{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: var(--fonte-corrida) !important;
 }
 
 .hover-d-none{
@@ -111,20 +111,20 @@ footer.mb{
         font-weight: 700;
         text-align: center;
         font-size: 16px;
-        -webkit-text-fill-color: #000;
-        color: #000;
+        -webkit-text-fill-color: var(--tonaliade-black);
+        color: var(--tonaliade-black);
     }
     
     .visited a::after{
         position: absolute;
         top: -4px; bottom: -4px;
         left: -4px; right: -4px;
-        background: linear-gradient(90deg, #7CFF01 -15.5%, #01FFF4 100%);
+        background: linear-gradient(90deg, var(--gradiente-3) -15.5%, var(--gradiente-4) 100%);
         content: '';
         z-index: -1;
         border-radius: 5px;
-        -webkit-text-fill-color: #000;
-        color: #000;
+        -webkit-text-fill-color: var(--tonaliade-black);
+        color: var(--tonaliade-black);
     }
     .visited a:hover{
         padding: 12px 83px;
@@ -194,7 +194,7 @@ footer.mb{
     
     .visited a{
         padding: 12px 79.4px;
-        background: linear-gradient(90deg, #7CFF01 -30.5%, #01FFF4 76.73%);
+        background: linear-gradient(90deg, var(--gradiente-3) -30.5%, var(--gradiente-4) 76.73%);
         border-radius: 5px;
         color: black;
         font-style: normal;

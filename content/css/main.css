@@ -1,5 +1,5 @@
-*{
-    color: #fff;
+* {
+    color: var(--tonaliade-white);
 }
 
 *,
@@ -11,29 +11,41 @@
 }
 
 @font-face {
-    font-family: "Clash Display";
-    src: url("/content/fontes/ClashDisplay-Medium.woff2") format("woff2"),
-         url("/content/fontes/ClashDisplay-Medium.woff") format("woff");
-         font-style: normal;
-  }
+  font-family: "Clash Display";
+  src: url("/content/fontes/ClashDisplay-Medium.woff2") format("woff2"),
+    url("/content/fontes/ClashDisplay-Medium.woff") format("woff");
+  font-style: normal;
+}
 @font-face {
-    font-family: "Clash Display";
-    src: url("/content/fontes/ClashDisplay-Bold.woff2") format("woff2"),
-         url("/content/fontes/ClashDisplay-Bold.woff") format("woff");
-         font-weight: 600;
-  }
-
-a{
-    text-decoration: none;
+  font-family: "Clash Display";
+  src: url("/content/fontes/ClashDisplay-Bold.woff2") format("woff2"),
+    url("/content/fontes/ClashDisplay-Bold.woff") format("woff");
+  font-weight: 600;
 }
 
-body{
-    background-color: #090909;
-    font-family: "Clash Display";
+:root {
+  --tonaliade-black: #090909;
+  --tonaliade-white: #ffffff;
+  --gradiente-1: #7cff00;
+  --gradiente-2: #00fff4;
+  --gradiente-3: #7CFF01;
+  --gradiente-4: #01FFF4;
+  --fonte-principal: "Clash Display";
+  --fonte-corrida: "Roboto", sans-serif;
+  --max-width-container-patter:1200px;
+  --margin-container-patter: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+body {
+    background-color: var(--tonaliade-black);
+    font-family: var(--fonte-principal);
+}
+
+.container {
+  max-width: var(--max-width-container-patter);
+  margin: var(--margin-container-patter);
 }
