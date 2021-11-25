@@ -12,10 +12,16 @@
 
 @font-face {
     font-family: "Clash Display";
-    src: url("/content/fontes/ClashDisplay-Regular.woff2") format("woff2"),
-         url("/content/fontes/ClashDisplay-Regular.woff") format("woff");
+    src: url("/content/fontes/ClashDisplay-Medium.woff2") format("woff2"),
+         url("/content/fontes/ClashDisplay-Medium.woff") format("woff");
+         font-style: normal;
   }
-  
+@font-face {
+    font-family: "Clash Display";
+    src: url("/content/fontes/ClashDisplay-Bold.woff2") format("woff2"),
+         url("/content/fontes/ClashDisplay-Bold.woff") format("woff");
+         font-weight: 600;
+  }
 
 a{
     text-decoration: none;
