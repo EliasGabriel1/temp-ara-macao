@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Clash Display";
 }
 
 @font-face {
@@ -24,6 +23,7 @@ a{
 
 body{
     background-color: #090909;
+    font-family: "Clash Display";
 }
 
 

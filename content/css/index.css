@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .logo{
     margin-top: 32.88px;
 }
@@ -18,9 +20,10 @@ hr{
     margin-top: 79.55px;
 }
 
-.main_text b h1{
+.main_text h1{
     font-size: 125px;
     line-height: 90%;
+    font-weight: 600;
 }
 
 .group_sociais{
@@ -55,6 +58,7 @@ hr{
 .group__text{
     margin-top: 16px;
     margin-bottom: 36px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content_text img{
@@ -69,13 +73,21 @@ hr{
     Vertical-align: Top;
 }
 
+footer{
+    font-family: 'Roboto', sans-serif;
+}
 
 footer.mb{
     margin-bottom: 47.6px;
+    justify-content: space-between;
 }
 
 .mobile{
     display: none;
+}
+
+.visited{
+    font-family: 'Roboto', sans-serif !important;
 }
 
 @media screen and (min-width: 800px){
@@ -123,7 +135,7 @@ footer.mb{
         justify-content: center;
     }
     .d-flex{flex-direction: column;}
-    .main_text b h1{
+    .main_text h1{
         font-weight: 600;
         font-size: 64px;
         line-height: 100%;
@@ -171,5 +183,9 @@ footer.mb{
     }
     footer.container .data{
         margin: 32px 0;
+    }
+    footer.mb p:first-child{
+        display: flex;
+        flex-direction: column;
     }
 }
