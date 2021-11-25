@@ -127,7 +127,6 @@ footer.mb{
         color: #000;
     }
     .visited a:hover{
-        padding: 12px 81px;
         background-color: #000;
     }
     .visited a:hover .hover-d-none{
@@ -193,6 +192,7 @@ footer.mb{
     .group__text{margin-top: 24px;}
     
     .visited a{
+        padding: 12px 79.4px;
         background: linear-gradient(90deg, #7CFF01 -30.5%, #01FFF4 76.73%);
         border-radius: 5px;
         color: black;
